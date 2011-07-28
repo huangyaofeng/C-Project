@@ -1,0 +1,12 @@
+#when we gcc the file which contain "math.h" head line,we must add the option 
+ "-lm" in the end.
+ such as 'gcc 2.c -lm'
+#尽量不要复制网页上的代码，粘贴到vim 上。否则会出现类似于这样的错误:
+  
+  bc.c:9: error: stray ‘\200’ in program
+  bc.c:9: error: stray ‘\200’ in program
+  bc.c:9: error: stray ‘\343’ in program
+  bc.c:9: error: stray ‘\200’ in program
+  bc.c:9: error: stray ‘\200’ in program 
+  因为这样复制时很容易把空白部分也copy下来，相当于加了很多空格，
+  有时也会copy一些中文符号等。从而产生错误。
