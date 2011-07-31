@@ -1,4 +1,4 @@
- #something about the '%'and'/'
+ #something about the '%'and'/' operator
  such as  int const m and n
  if m<n
  m%n=m;
